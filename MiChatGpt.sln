@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiChatGpt", "MiChatGpt\MiChatGpt.csproj", "{BE9A976C-8391-467E-8832-A89999EF8CD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9A976C-8391-467E-8832-A89999EF8CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9A976C-8391-467E-8832-A89999EF8CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9A976C-8391-467E-8832-A89999EF8CD0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BE9A976C-8391-467E-8832-A89999EF8CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9A976C-8391-467E-8832-A89999EF8CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9A976C-8391-467E-8832-A89999EF8CD0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6C81B2A-3DF0-4E4B-AD9F-8FCA7671C450}
+	EndGlobalSection
+EndGlobal

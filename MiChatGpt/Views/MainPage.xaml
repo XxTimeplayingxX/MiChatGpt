@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MiChatGpt.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <Label Text="Ingrese Texto" />
+            <Entry
+                x:Name="PreguntaEntry"
+                Placeholder="Ingrese una pregunta"
+                Text="{Binding MiConsulta.Pregunta}" />
+            <Label />
+            <Entry x:Name="RespuestaEntry" Text="{Binding MiConsulta.Respuesta}" />
+            <Button
+                x:Name="EnviarButton"
+                Command="{Binding EnviarCommand}"
+                Text="Enviar" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
